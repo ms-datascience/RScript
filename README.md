@@ -3,7 +3,17 @@ RScript
 
 This repository is designed to share custom modules, utility codes, applications, and other miscellaneous codes for Azure ML studio. The hierarchy of this repository is:
 
-Repository
+Repository Structure: 
+1. Apps
+2. Misc
+3. Modules
+   3.1 Algorithms
+       3.1.1 C#
+       3.1.2 Python
+   3.2 DataProcessing
+4. Utilities
+5. VisualizationTools
+
 |
 |--Modules                    # Things that can be installed in Studio – reserved for when we support custom modules in that language
     |--DataProcessing         # eg TFIDF, feature extraction, date conversion, risk tables
