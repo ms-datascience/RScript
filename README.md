@@ -136,7 +136,7 @@ Please put your codes in properly place in the repository.
 This repository is designed to share custom modules, utility codes, applications, and other miscellaneous codes for Azure ML studio. The hierarchy of this repository is:
 
 #Repository Structure
-```
+
 Repository
 1. Modules                    // Things that can be installed in Studio – reserved for when we support custom modules in that language
    1. DataProcessing         // Codes process the data in Studio, e.g., TFIDF, feature extraction, date conversion, risk tables
@@ -162,6 +162,6 @@ Repository
 3. Apps                       // Apps to drive/consume AzureML, e.g., web apps, mobile apps, Excel plugins.
 4. Visualization Tool         // Tools/codes for visualization    
 5. Misc                      // For hard-to-classify items
-```
+
 Please put your codes in properly place in the repository.
 
