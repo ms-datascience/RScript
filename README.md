@@ -61,5 +61,33 @@ Table 2
 
 
 
+```
+Repository
+|
+|--Modules                    # Things that can be installed in Studio – reserved for when we support custom modules in that language
+    |--DataProcessing         # eg TFIDF, feature extraction, date conversion, risk tables
+        |--Python
+        |--C#
+        |--R
+        |--Misc
+    |--Algorithms             # Custom algorithms, i.e., Regularized Greedy Forest
+        |--Python
+        |--C#
+        |--R
+        |--Misc
+    |--Misc                   # Eg call out to data provider
+        |--Python
+        |--C#
+        |--R
+        |--Misc
+|--Utilities                  # Running outside of Studio, or inside module as script
+    |--Python                 # Could be ipython notebook
+    |--C#                     # Eg. To interact with AML APIs to copy workspaces
+    |--R                      # R scripts inside ExecuteR, external scripts for data. For example code to calculate performance metrics, produce graphs, etc.
+    |--Misc
+|--Apps                       # apps to drive/consume AzureML, e.g., web apps, mobile apps, Excel plugins.
+|--Visualization Tool         # tools/codes for visualization    
+|--	Misc 
+```
 
-
+End of the hierarchical structure.
